@@ -14,6 +14,7 @@ test('Login to Orange HRM', async ({ page }) => {
     await page.locator('//input[@name="username"]').fill(process.env.APP_USERNAME)
     await page.locator('//input[@name="password"]').fill(process.env.APP_USERNAME)
     await page.locator('//button[@type="submit"]').click()
+    
     //await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')
 
 })
