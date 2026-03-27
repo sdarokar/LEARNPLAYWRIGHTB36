@@ -3,18 +3,28 @@ import logindata from "../testdata/OHRMlogin.json"
 
 test('Login to Orange HRM', async ({ page }) => {
     // Using testdata
-    /*await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-    await page.locator('//input[@name="username"]').fill(logindata.username)
-    await page.locator('//input[@name="password"]').fill(logindata.password)
+    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    await page.locator('//input[@name="username"]').fill(process.env.APP_USERNAME)
+    await page.locator('//input[@name="password"]').fill(process.env.APP_PASSWORD)
     await page.locator('//button[@type="submit"]').click()
-    await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')*/
+    await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');
+})
 
+    test('Login to Orange HRM with invalid cred', async ({ page }) => {
+    // Using testdata
+    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    await page.locator('//input[@name="username"]').fill(process.env.APP_USERNAME1)
+    await page.locator('//input[@name="password"]').fill(process.env.APP_PASSWORD1)
+    await page.locator('//button[@type="submit"]').click()
+    await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');
+
+    })
+    /*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {
     //Using .env
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     await page.locator('//input[@name="username"]').fill(process.env.APP_USERNAME)
     await page.locator('//input[@name="password"]').fill(process.env.APP_USERNAME)
-    await page.locator('//button[@type="submit"]').click()
-    
+    await page.locator('//button[@type="submit"]').click()*/
+
     //await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')
 
-})

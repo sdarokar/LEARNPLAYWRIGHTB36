@@ -1,0 +1,449 @@
+{
+  "config": {
+    "configFile": "D:\\LearnPlaywrightB36\\playwright.config.js",
+    "rootDir": "D:/LearnPlaywrightB36/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/LearnPlaywrightB36/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/LearnPlaywrightB36/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "D:/LearnPlaywrightB36/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/LearnPlaywrightB36/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "D:/LearnPlaywrightB36/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/LearnPlaywrightB36/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Assignment 1_DemoQA.spec.js",
+      "file": "Assignment 1_DemoQA.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify the text box",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7657,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-27T12:39:34.558Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\Assignment 1_DemoQA-Verify-the-text-box-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3300de75999a0da775eb-18ca4f47f105926a22cf",
+          "file": "Assignment 1_DemoQA.spec.js",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Login to Sauce.spec.js",
+      "file": "Login to Sauce.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login to Sauce Demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3257,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-27T12:39:34.589Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\Login to Sauce-Login-to-Sauce-Demo-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\Login to Sauce-Login-to-Sauce-Demo-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "02877c2794488a0ec485-0ec4135abaf040ec9262",
+          "file": "Login to Sauce.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "loginOrangehrm.spec.js",
+      "file": "loginOrangehrm.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login to Orange HRM",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 9200,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-27T12:39:38.444Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3da60512cdbb492f056b-55ff0e3c29fa56a414c7",
+          "file": "loginOrangehrm.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Login to Orange HRM with invalid cred",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 28611,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n\n    at D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js:19:24",
+                    "location": {
+                      "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                      "column": 24,
+                      "line": 19
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//input[@name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_PASSWORD1\u001b[39m)\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//button[@type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     })\n \u001b[90m 22 |\u001b[39m     \u001b[90m/*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                        "column": 24,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//input[@name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_PASSWORD1\u001b[39m)\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//button[@type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     })\n \u001b[90m 22 |\u001b[39m     \u001b[90m/*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {\u001b[39m\u001b[0m\n\u001b[2m    at D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js:19:24\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-27T12:39:42.732Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                    "column": 24,
+                    "line": 19
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 28689,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n\n    at D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js:19:24",
+                    "location": {
+                      "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                      "column": 24,
+                      "line": 19
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//input[@name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_PASSWORD1\u001b[39m)\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//button[@type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     })\n \u001b[90m 22 |\u001b[39m     \u001b[90m/*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                        "column": 24,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//input[@name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_PASSWORD1\u001b[39m)\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//button[@type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     })\n \u001b[90m 22 |\u001b[39m     \u001b[90m/*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {\u001b[39m\u001b[0m\n\u001b[2m    at D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js:19:24\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2026-03-27T12:40:14.085Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry1\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry1\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry1\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry1\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                    "column": 24,
+                    "line": 19
+                  }
+                },
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 28361,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n\n    at D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js:19:24",
+                    "location": {
+                      "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                      "column": 24,
+                      "line": 19
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//input[@name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_PASSWORD1\u001b[39m)\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//button[@type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     })\n \u001b[90m 22 |\u001b[39m     \u001b[90m/*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                        "column": 24,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mdashboard/index\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/\u001b[7mauth/login\u001b[27m\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 20000ms\u001b[22m\n\u001b[2m    23 × unexpected value \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//input[@name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_PASSWORD1\u001b[39m)\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'//button[@type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     })\n \u001b[90m 22 |\u001b[39m     \u001b[90m/*test('Login to Orange HRM with valid Username and invalid Password', async ({ page }) => {\u001b[39m\u001b[0m\n\u001b[2m    at D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js:19:24\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2026-03-27T12:40:45.544Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry2\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry2\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry2\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\LearnPlaywrightB36\\test-results\\loginOrangehrm-Login-to-Orange-HRM-with-invalid-cred-chromium-retry2\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\LearnPlaywrightB36\\tests\\loginOrangehrm.spec.js",
+                    "column": 24,
+                    "line": 19
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3da60512cdbb492f056b-22562aabbc14e999d1e8",
+          "file": "loginOrangehrm.spec.js",
+          "line": 13,
+          "column": 9
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-27T12:39:32.276Z",
+    "duration": 102705.395,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
