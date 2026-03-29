@@ -40,7 +40,8 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'retain-on-failure',
+    //baseURL: "https://opensource-demo.orangehrmlive.com",
+    trace: 'on',
     video : 'on',
     screenshot : 'on'
   },
