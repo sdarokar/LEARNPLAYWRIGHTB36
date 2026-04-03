@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
-import logindata from "../testdata/OHRMlogin.json"
+//import logindata from "../testdata/OHRMlogin.json"
 
 test('Login to Orange HRM', async ({ page }) => {
     // Using testdata
-    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    await page.goto("/web/index.php/auth/login")
     await page.locator('//input[@name="username"]').fill(process.env.APP_USERNAME)
     await page.locator('//input[@name="password"]').fill(process.env.APP_PASSWORD)
     await page.locator('//button[@type="submit"]').click()
@@ -12,7 +12,7 @@ test('Login to Orange HRM', async ({ page }) => {
 
     test('Login to Orange HRM with invalid cred', async ({ page }) => {
     // Using testdata
-    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    await page.goto("/web/index.php/auth/login")
     await page.locator('//input[@name="username"]').fill(process.env.APP_USERNAME1)
     await page.locator('//input[@name="password"]').fill(process.env.APP_PASSWORD1)
     await page.locator('//button[@type="submit"]').click()
