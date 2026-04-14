@@ -10,6 +10,11 @@ test('Login to Orange HRM', async ({ page }) => {
     await page.locator('//button[@type="submit"]').click()
     await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');
 
+ //Locator using relative Xpath
+   //await page.locator('//span[text()="Leave"]').click()
+
+   //Locator using text
+   //await page.locator('//p[text()="Forgot your password? "]').click()
 
 
 })
