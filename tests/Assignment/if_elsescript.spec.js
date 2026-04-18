@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+//import { testDatahelper } from '../utils/testDataHelper';
 
 test('To check if galery is not visible then click on portfolio', async ({ page }) => {
 
