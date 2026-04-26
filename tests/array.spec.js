@@ -44,3 +44,16 @@ console.log(arr2)
 arr4 = ["SATISH", "D"]
 
 console.log(arr4.join(""))
+
+
+// find the first element in the array which is greater than 25
+let arr = [10, 20, 30, 40];
+
+let result = arr.find( x => x > 25);  // defines a function that takes a single parameter name.
+console.log(result);
+
+//find the index of the first element in the array which is equal to 40
+let arr1 = [10, 20, 30, 40];
+let result1 = arr1.findIndex(x => x === 40);
+
+console.log(result1)
